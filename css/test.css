@@ -1,0 +1,29 @@
+.test_wrap {
+  text-align: right; }
+  .test_wrap .test {
+    font-size: 12px;
+    color: blue; }
+
+.icon_account {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 18px;
+  height: 18px;
+  vertical-align: top;
+  display: inline-block; }
+
+.icon_check_circle {
+  background-image: url(../img/sprite.png);
+  background-position: -18px 0px;
+  width: 18px;
+  height: 18px;
+  vertical-align: top;
+  display: inline-block; }
+
+.icon_delete {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -18px;
+  width: 18px;
+  height: 18px;
+  vertical-align: top;
+  display: inline-block; }

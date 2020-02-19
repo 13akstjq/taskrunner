@@ -1,0 +1,29 @@
+@import "sprite";
+
+.test_wrap {
+  text-align: right;
+
+  .test {
+    font-size: 12px;
+    color: blue;
+    // appearance: none;
+  }
+}
+
+.icon_account {
+  @include sprite($account);
+  vertical-align: top;
+  display: inline-block;
+}
+
+.icon_check_circle {
+  @include sprite($check-circle);
+  vertical-align: top;
+  display: inline-block;
+}
+
+.icon_delete {
+  @include sprite($delete);
+  vertical-align: top;
+  display: inline-block;
+}
